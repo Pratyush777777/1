@@ -5,6 +5,7 @@ import time
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
+            #GithubIcon {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
             """
