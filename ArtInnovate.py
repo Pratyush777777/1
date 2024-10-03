@@ -28,7 +28,7 @@ def open_artist_page(artist_name):
     st.markdown(f"[Click Here to Open Artist Page]({artist_url})")
 
 # Streamlit UI
-time.sleep(5)
+time.sleep(2.5)
 st.title("ArtInnovate Beta")
 uploaded_image = st.file_uploader("Upload Your Painting")
 
