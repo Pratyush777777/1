@@ -16,7 +16,7 @@ artist_fame_scores = {
 def open_artist_page(artist_name):
     base_url = "https://laasyaart.com/"
     artist_url = base_url + artist_name.lower().replace(" ", "-") + "/"
-    webbrowser.open(artist_url)
+    st.markdown(f"[Open Artist Page]({artist_url})")
 
 # Streamlit UI
 st.title("ArtInnovate Beta")
