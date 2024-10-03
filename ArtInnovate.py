@@ -10,9 +10,6 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-MainMenu {
-  visibility: hidden;
-}
 # Dictionary of artist names with their respective fame scores based on biography length
 artist_fame_scores = {
     "Amit Bhar": 2, "Anuradha Thakur": 3, "Basuki Das Gupta": 4, "Bharti Prajapati": 3, "Buwa Shete": 2,
