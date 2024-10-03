@@ -28,6 +28,7 @@ def open_artist_page(artist_name):
     st.markdown(f"[Click Here to Open Artist Page]({artist_url})")
 
 # Streamlit UI
+time.sleep(5)
 st.title("ArtInnovate Beta")
 uploaded_image = st.file_uploader("Upload Your Painting")
 
@@ -38,7 +39,7 @@ with col1:
 with col2:
     creation_year = st.text_input("Enter Creation Year")
 
-time.sleep(5)
+
 
 # Prompt for art characteristics
 st.markdown("###### If Your Painting Has These Characteristics, Please Enter 1 or 0")
