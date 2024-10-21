@@ -4,7 +4,7 @@ import time
 
 hide_st_style = """
             <style>
-            .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob, .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137, .viewerBadge_text__1JaDK{ display: none; } 
+            .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob, .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137, .viewerBadge_text__1JaDK, .css-1oe5cao { display: none; } 
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             footer:after {content:''; display:none;}
