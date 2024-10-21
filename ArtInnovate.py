@@ -9,6 +9,8 @@ hide_st_style = """
             footer {visibility: hidden;}
             footer:after {content:''; display:none;}
             header { visibility: hidden; }
+            ._profileContainer_1yi6l_53 { display: none; }
+            ._profilePreview_1yi6l_63 { display: none; } 
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
